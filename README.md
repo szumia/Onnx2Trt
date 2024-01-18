@@ -44,7 +44,8 @@ or you can download  onnx model from here [z16b](https://pan.baidu.com/s/1KzJ3-1
 
    The results are saved in the build folder.
 
-   ![image](result/zidane.jpg)
+   ![image](build/000000000326.jpg)
+
 
 ## translate labels'yamel to txt
   ```
