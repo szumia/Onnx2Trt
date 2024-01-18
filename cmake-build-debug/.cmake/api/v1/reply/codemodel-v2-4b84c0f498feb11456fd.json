@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "onnx2trt",
+					"jsonFile" : "directory-onnx2trt-Release-4e41483a3171d0e0ee05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "onnx2trt",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "labelsyaml2txt",
+					"jsonFile" : "directory-labelsyaml2txt-Release-5c0479329e86b973d363.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "labelsyaml2txt",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "yolov8",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "onnx2trt",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "labelsyaml2txt",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "labelsyaml2txt::@db6d1c06b402e5fcffdd",
+					"jsonFile" : "target-labelsyaml2txt-Release-86333a03f43e65970b32.json",
+					"name" : "labelsyaml2txt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "onnx2trt::@5dd1681d7c5d40e5c402",
+					"jsonFile" : "target-onnx2trt-Release-19d57a2e9458ae9c751d.json",
+					"name" : "onnx2trt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8-Release-644a6934cff63a7b9a19.json",
+					"name" : "yolov8",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rp/lztRepository/lztYolov8Tensort/yolov8-tensorrt-master/cmake-build-debug",
+		"source" : "/home/rp/lztRepository/lztYolov8Tensort/yolov8-tensorrt-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

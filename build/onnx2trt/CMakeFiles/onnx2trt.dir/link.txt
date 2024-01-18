@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/onnx2trt.dir/onnx2trt.cpp.o  -o onnx2trt   -L/usr/local/cuda-11.8/targets/x86_64-linux/lib  -L/opt/TensorRT-8.5.1.7/lib  -L/usr/local/cuda/lib64  -Wl,-rpath,/usr/local/cuda-11.8/targets/x86_64-linux/lib:/opt/TensorRT-8.5.1.7/lib:/usr/local/cuda/lib64 -lnvinfer -lcudart -lnvonnxparser 

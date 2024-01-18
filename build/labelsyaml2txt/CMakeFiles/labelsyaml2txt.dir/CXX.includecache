@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rp/lzt/yolov8-tensorrt-master/labelsyaml2txt/labelsyaml2txt.cpp
+iostream
+-
+string
+-
+fstream
+-
+vector
+-
+yaml-cpp/yaml.h
+-
+
