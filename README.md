@@ -47,11 +47,13 @@ or you can download  onnx model from here [z16b](https://pan.baidu.com/s/1KzJ3-1
    ![image](result/zidane.jpg)
 
 ## translate labels'yamel to txt
+  ```
 ./labelsyaml2txt/labelsyaml2txt ../coco128.yaml ../coco128.txt
+  ```
 
 ## use given model
 If you want to use my trt model. Please extract face01.zip in order to deploy face detection or extract coco128.zip in order to deploy coco detection first.
 
 ## contact
 If you are finding yolov5 tensorrt or deploy trt with cameras, or you have better idea,  
-Please contact with 13046311074.163.com. Thanks for your supports and stars; 
+Please contact with @13046311074.163.com. Thanks for your supports and stars; 
